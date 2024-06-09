@@ -1,18 +1,48 @@
-# project_api_gemini
+# Proyecto de Concurso con la API de Gemini en Flutter
 
-A new Flutter project.
+## Introducción
 
-## Getting Started
+Hi, this is my project for the competition, i hope you like it
 
-This project is a starting point for a Flutter application.
+## Índice
 
-A few resources to get you started if this is your first Flutter project:
+- [Requisitos](#requisitos)
+- [Configuración del Proyecto](#configuración-del-proyecto)
+- [Configuración de la API](#configuración-de-la-api)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Requisitos
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Gemini-Api
-# Gemini-Api
+Antes de comenzar, asegúrate de tener instalado:
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Un editor de código (por ejemplo, Visual Studio Code)
+- Una cuenta de Google con acceso a la API de Gemini
+- Claves de API obtenidas del [sitio oficial de Gemini](https://ai.google.dev/competition)
+
+## Configuración del Proyecto
+
+Sigue estos pasos para configurar el entorno de desarrollo:
+
+1. Clona este repositorio en tu máquina local:
+
+    ```sh
+    git clone https://github.com/tu_usuario/mi_proyecto_flutter_gemini.git
+    cd mi_proyecto_flutter_gemini
+    ```
+
+2. Abre el proyecto en tu editor de código.
+
+3. Ejecuta el comando `flutter pub get` para instalar las dependencias del proyecto.
+
+## Configuración de la API
+
+Para utilizar la API de Gemini en tu aplicación Flutter, necesitarás configurar tus claves de API. Sigue estos pasos:
+
+1. Crea un archivo `.env` en la raíz del proyecto.
+
+2. Agrega tus claves de API al archivo `.env` de la siguiente manera:
+
+    ```env
+    GEMINI_API_KEY=tu_clave_api
+    GEMINI_API_SECRET=tu_secreto_api
+    ```
