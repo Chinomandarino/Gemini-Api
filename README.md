@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Hi, this is my project for the competition, i hope you like it
+este es mi proyecto con la api de gemini para el concurso, espero les guste y les parezca interesant
 
 ## Índice
 
